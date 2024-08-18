@@ -1,0 +1,17 @@
+# Indica que esta é a configuração raiz e outras configurações .editorconfig em diretórios superiores não serão aplicadas.
+root = true
+
+# Seção padrão que se aplica a todos os arquivos.
+[*]
+# Define o estilo de indentação como espaço (ao invés de tabulação).
+indent_style = space
+# Define o tamanho da indentação para 2 espaços.
+indent_size = 2
+# Define o estilo de fim de linha como LF (line feed), que é padrão em sistemas Unix e Linux.
+end_of_line = lf
+# Define o conjunto de caracteres como UTF-8.
+charset = utf-8
+# Remove espaços em branco à direita automaticamente.
+trim_trailing_whitespace = true
+# Insere uma nova linha no final do arquivo, se não houver uma.
+insert_final_newline = true
